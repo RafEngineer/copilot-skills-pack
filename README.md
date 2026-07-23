@@ -19,13 +19,13 @@ Important note:
 1. Clone this repository into a permanent folder:
 
 ```bash
-git clone <your-repo-url> ~/copilot-skills
+git clone https://github.com/RafEngineer/copilot-skills-pack.git ~/copilot-skills-pack
 ```
 
 2. Enter the folder and run the linker:
 
 ```bash
-cd ~/copilot-skills
+cd ~/copilot-skills-pack
 ./scripts/link-skills.sh
 ```
 
@@ -123,7 +123,7 @@ If you skip this step, skills like /to-spec, /to-tickets, and /triage may run wi
 When you change skills or pull updates:
 
 ```bash
-cd ~/copilot-skills
+cd ~/copilot-skills-pack
 git pull
 ./scripts/link-skills.sh
 ```
